@@ -41,7 +41,7 @@
     </nav>
     <!-- Works section-->
     <main class="main">
-      <section class="section-work">
+      <section class="section-work p-5">
         <div class="container mb-4">
           <div class="row gx-5 gy-5">
             <div class="col-sm col-md-4">
@@ -114,14 +114,8 @@
             </div>
           </div>
         </div>
-        
-      </section>
-    </main>
-
-    <!-- Button trigger modal -->
-
-<!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
@@ -140,7 +134,41 @@
       </div>
     </div>
   </div>
-</div>
+          </div>
+      </section>
+
+      <!--contact-->
+      <section class="container my-5 bg-primary text-white p-5">
+        <h2 class="text-center mb-4">Contact Us</h2>
+        <div class="row justify-content-center">
+          <div class="col-md-6">
+            <form action="submit-form.php" method="POST">
+              <div class="mb-3">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name" required>
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email" required>
+              </div>
+              <div class="mb-3">
+                <label for="subject" class="form-label">Subject</label>
+                <input type="text" class="form-control" id="subject" name="subject" placeholder="Enter the subject" required>
+              </div>
+              <div class="mb-3">
+                <label for="message" class="form-label">Message</label>
+                <textarea class="form-control" id="message" name="message" rows="5" placeholder="Enter your message" required></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary btn-outline-light px-4 py-2">Send</button>
+            </form>
+          </div>
+        </div>
+      </section>
+      
+    </main>
+
+
+
 
 
 
