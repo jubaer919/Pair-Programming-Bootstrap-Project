@@ -25,13 +25,13 @@ h1 {
 
 @media screen and (min-width: 768px) {
   .headline {
-  background: url('./images/desk-header-bg.png');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 90% 88%;
-  background-position: center;
-  padding: 0 !important;
-  margin: 0;
+    background: url('./images/desk-header-bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 90% 88%;
+    background-position: center;
+    padding: 0 !important;
+    margin: 0;
   }
 
   .h1-sub2 {
