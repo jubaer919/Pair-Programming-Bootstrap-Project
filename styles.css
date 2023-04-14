@@ -2,40 +2,26 @@
   background-color: #efefef !important;
 }
 
-h1 {
-  font-size: 1.6rem;
-}
-
 .headline {
-  position: relative;
-  margin: 0 auto;
-  padding: 20% !important;
-  height: 92vh;
-  border-bottom-left-radius: 7%;
+  padding: 60% 10%!important;
+  border-bottom-left-radius: 10%;
   background: url('./images/mob-header-bg.png');
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 100% 80%;
+  background-size: auto;
   overflow: hidden;
 }
 
 .hl-sub2 {
-  margin-top: 40%;
+  margin: auto;
 }
 
 @media screen and (min-width: 768px) {
   .headline {
+    padding: 20% 10%!important;
     background: url('./images/desk-header-bg.png');
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 90% 88%;
-    background-position: center;
-    padding: 0 !important;
-    margin: 0;
-  }
-
-  .h1-sub2 {
-    margin-top: 0%;
-  }
+    background-size: 96%;
+  } 
 }
-
