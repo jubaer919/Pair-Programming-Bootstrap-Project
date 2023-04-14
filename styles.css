@@ -1,0 +1,27 @@
+.body {
+  background-color: #efefef !important;
+}
+
+.headline {
+  padding: 60% 10%;
+  border-bottom-left-radius: 10%;
+  background: url('./images/mob-header-bg.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+  overflow: hidden;
+}
+
+.hl-sub2 {
+  margin: auto;
+}
+
+@media screen and (min-width: 768px) {
+  .headline {
+    padding: 20% 10%;
+    background: url('./images/desk-header-bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 96%;
+  }
+}
