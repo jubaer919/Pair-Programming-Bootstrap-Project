@@ -24,7 +24,7 @@ h1 {
 }
 
 @media screen and (min-width: 768px) {
-  .headline {
+.headline {
     background: url('./images/desk-header-bg.png');
     background-position: center;
     background-repeat: no-repeat;
@@ -34,7 +34,7 @@ h1 {
     margin: 0;
   }
 
-  .h1-sub2 {
+.h1-sub2 {
     margin-top: 0%;
   }
 }
